@@ -83,7 +83,7 @@ const config = {
             dropdownActiveClassDisabled: true,
           },
           {
-            href: 'https://github.com/tati-18/SCVideogame',
+            href: 'https://github.com/tati-18/RunCatVJ',
             label: 'GitHub',
             position: 'right',
           },
