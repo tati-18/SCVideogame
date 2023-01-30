@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstraycat=self.webpackChunkstraycat||[]).push([[6553],{6376:e=>{e.exports=JSON.parse('{"permalink":"/SCVideogame/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

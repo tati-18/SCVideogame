@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstraycat=self.webpackChunkstraycat||[]).push([[5285],{398:a=>{a.exports=JSON.parse('{"permalink":"/SCVideogame/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

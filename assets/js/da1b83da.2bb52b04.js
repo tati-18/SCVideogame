@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstraycat=self.webpackChunkstraycat||[]).push([[2862],{8266:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/SCVideogame/blog/tags/docusaurus","allTagsPath":"/SCVideogame/blog/tags","count":4}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstraycat=self.webpackChunkstraycat||[]).push([[8011],{5967:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/SCVideogame/blog/tags/hello","allTagsPath":"/SCVideogame/blog/tags","count":2}')}}]);
