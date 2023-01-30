@@ -67,27 +67,27 @@ tr:nth-child(even) {
 
 
 
-/* Portfolio Header */
+/* Portafolio Header */
 
-#portfolio-header {
+#Portafolio-header {
   display: flex;
   gap: 20px;
   align-items: center;
 }
 
-#portfolio-header-image-container {
+#Portafolio-header-image-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
   flex-basis: 50%;
 }
 
-.portfolio-header-image {
+.Portafolio-header-image {
   width: 100%;
   height: auto;
 }
 
-#portfolio-header-text-container {
+#Portafolio-header-text-container {
   display: flex;
   flex-direction: column;
   gap: 34px;
@@ -213,7 +213,58 @@ tr:nth-child(even) {
       display:flex;
       justify-content: space-around;
     }
+   
+/* Quito el estilo de icono por defecto y le doy 0 de relleno padding al lado izquierdo */ 
+.separado  {
+  list-style: none;
+  padding-left: 0;
+}
 
+/* Accedo a los elementos de la lista y le doy posición relativa y un padding o relleno de 20px a la lado izquierdo de cada elemento */ 
+.separado li {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Acá agrego varias propiedades, le doy ancho y alto de 10px, posición absoluta, coloco la imagen como fondo, entre otras propiedades */
+.separado li:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image: url('../assets/icons/incorrecto.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Quito el estilo de icono por defecto y le doy 0 de relleno padding al lado izquierdo */ 
+.separado2  {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Accedo a los elementos de la lista y le doy posición relativa y un padding o relleno de 20px a la lado izquierdo de cada elemento */ 
+.separado2 li {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Acá agrego varias propiedades, le doy ancho y alto de 10px, posición absoluta, coloco la imagen como fondo, entre otras propiedades */
+.separado2 li:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image: url('../assets/icons/correcto.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
   #main-content {
@@ -241,7 +292,7 @@ tr:nth-child(even) {
     margin: 150px 50px;
   }
 
-  #portfolio-header {
+  #Portafolio-header {
     flex-direction: column;
   }
 
