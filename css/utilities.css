@@ -98,6 +98,7 @@ a.no-underline:hover {
   cursor: pointer;
 }
 
+
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #footer {
